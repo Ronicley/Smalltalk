@@ -1,5 +1,4 @@
-# Smalltalk
-
+## **Smalltalk**
 # Hello World:
 
 - Transcript show: 'Olá Mundo'.
