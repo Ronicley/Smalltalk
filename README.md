@@ -1,4 +1,5 @@
 # Smalltalk
+
 ## **Hello World:**
 
 - Transcript show: 'Olá Mundo'.
@@ -7,3 +8,8 @@
 
 - Transcript clear.
 - Transcript cr.
+
+## **Declaração de Variável:**
+
+- |variavel|
+- variavel := valor desejado .
