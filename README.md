@@ -21,7 +21,7 @@
 
 ifTrue e IfFalse
 
--comparação ifTrue: [ Ação se a comparação for verdadeira ]
--comparação ifFalse: [ Ação se a comparação for falsa ]
+- comparação ifTrue: [ Ação se a comparação for verdadeira ]
+- comparação ifFalse: [ Ação se a comparação for falsa ]
 
 ---
