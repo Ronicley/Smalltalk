@@ -9,7 +9,8 @@
 
 - Transcript clear.
 - Transcript cr.
-
+- Transcript space.
+- Transcript tab.
 ---
 
 ## Declaração de Variável:
@@ -21,7 +22,7 @@
 
 ## Condicional:
 
-ifTrue e ifFalse
+ifTrue e ifFalse:
 
 - comparação ifTrue: [ Ação se a comparação for verdadeira ] .
 - comparação ifFalse: [ Ação se a comparação for falsa ] .
@@ -30,7 +31,7 @@ ifTrue e ifFalse
 
 ## Laços de repetição:
 
-whileTrue, whileFalse, timesRepeat, to do, to by do e array do
+whileTrue, whileFalse, timesRepeat, to do, to by do e array do:
 
 - whileTrue --> [ comparação ] whileTrue: [ Iteração se a comparação for verdadeira ] .
   * EX: |x|. x:= 3. [x>0] whileTrue: [Transcript cr show: x. x:= x-1.].
@@ -44,3 +45,14 @@ whileTrue, whileFalse, timesRepeat, to do, to by do e array do
   * EX: 0 to: 10 by: 2 do: [:i| Transcript show: i; cr].
 - array do --> array do: [:variavel do array da vez| ação].
   * EX: #(0 1 2 3) do: [:a| Transcript show: a; cr.].
+  
+--
+
+ ## Janelas de diálogo
+ 
+ Janelas de confirmação e requesição:
+ 
+ - Janelas de confirmação: self inform: 'Mensagem'.
+ - Janelas de requesição: variavel:= FillInTheBlank request: 'Mensagem'.
+ 
+ 
