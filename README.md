@@ -46,7 +46,7 @@ whileTrue, whileFalse, timesRepeat, to do, to by do e array do:
 - array do --> array do: [:variavel do array da vez| ação].
   * EX: #(0 1 2 3) do: [:a| Transcript show: a; cr.].
   
---
+---
 
  ## Janelas de diálogo
  
