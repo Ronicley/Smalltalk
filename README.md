@@ -55,4 +55,6 @@ whileTrue, whileFalse, timesRepeat, to do, to by do e array do:
  - Janelas de confirmação: self inform: 'Mensagem'.
  - Janelas de requesição: variavel:= FillInTheBlank request: 'Mensagem'.
  
- 
+---
+### Blocks (Blocos)
+
